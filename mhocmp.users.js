@@ -57,7 +57,7 @@ function count(){
 }
 
 function checkVoterList(){
-    var voterTargets = ["ArthurDent24","WillShakespeare99","ToxicTransit","Glenn_Cullen","TheKirrix","goodboi_BAA","AlvaroLage","c19jf","TheKirrix","TheOWOTriangle","TheOWOTriangle","ARichTeaBiscuit","frozentsbgg","EponaCorcra","WhatIsACarrotAnyway","Cenarchos","Butterlands","hurricaneoflies",];
+    var voterTargets = ["hurricaneoflies","WillShakespeare99","ArthurDent24","HazardArrow","TheoChelford","goodboi_BAA","_KnowYourPlace_","AlvaroLage","fartoomuchpressure","TheOWOTriangle","UncookedMeatloaf","ARichTeaBiscuit","frozentsbgg","PM-ME-SPRINKLES","mrpieface","Cenarchos",];
     $.each($('.tagline'), function(i,val){
         for(var i = 0; i < voterTargets.length; i++){
             if(voterTargets[i] != "NULL" && $(val).text().toLowerCase().indexOf(voterTargets[i].toLowerCase()) !== -1){
